@@ -6,7 +6,7 @@ const SubmissionSuccess = () => {
   const { state } = useLocation();
   
   return (
-    <Container className="mt-5">
+    <Container className="submission-success mt-5">
       <h2>Thank you, {state.name}!</h2>
       <p>Your message has been sent.</p>
       <ul>

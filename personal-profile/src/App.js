@@ -6,18 +6,18 @@ import About from './component/About';
 import Skills from './component/Skills';
 import Contact from './component/Contact';
 import SubmissionSuccess from './component/SubmissionSuccess';
+import './App.css';  // Import custom CSS
 
 const App = () => {
   return (
     <Router>
-      {/* Navbar for Navigation */}
-      <Navbar bg="light" expand="lg">
+      {/* Navbar with additional Bootstrap styling */}
+      <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="/">My Profile</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              {/* Links to different routes */}
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link} to="/skills">Skills</Nav.Link>
@@ -27,7 +27,7 @@ const App = () => {
         </Container>
       </Navbar>
 
-      {/* Routes for different pages */}
+      {/* Define Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

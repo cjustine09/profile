@@ -20,7 +20,7 @@ const Contact = () => {
     <Container className="mt-5">
       <h2>Contact Me</h2>
       <Form onSubmit={handleSubmit}>
-        <Form.Group className="mb-3">
+        <Form.Group>
           <Form.Label>Name</Form.Label>
           <Form.Control
             type="text"
@@ -30,7 +30,7 @@ const Contact = () => {
             required
           />
         </Form.Group>
-        <Form.Group className="mb-3">
+        <Form.Group>
           <Form.Label>Email</Form.Label>
           <Form.Control
             type="email"
@@ -40,7 +40,7 @@ const Contact = () => {
             required
           />
         </Form.Group>
-        <Form.Group className="mb-3">
+        <Form.Group>
           <Form.Label>Message</Form.Label>
           <Form.Control
             as="textarea"
