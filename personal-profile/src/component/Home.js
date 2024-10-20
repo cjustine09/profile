@@ -4,8 +4,9 @@ import { Container } from 'react-bootstrap';
 const Home = () => {
   return (
     <Container className="mt-5">
-      <h1>Welcome to My Profile!</h1>
-      <p>I am a software developer with a passion for creating web applications. My career goal is to make impactful digital solutions.</p>
+      <h1>Personal Profile!</h1>
+      <p>Hellow!! My name is Dela Cruz, Carl Jusine R. and from Pulo, Cabuyao, Laguna, currently studying at University Cabuyao(UC) 
+        with the course banchelor of science compter science</p>
     </Container>
   );
 };
