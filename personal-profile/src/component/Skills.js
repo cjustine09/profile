@@ -6,7 +6,9 @@ const Skills = () => {
     <Container className="mt-5">
       <h2>My Skills</h2>
       <ul>
-        <li>JavaScript</li>
+        <li>Php</li>
+        <li>Html</li>
+        <li>Java</li>
         <li>React</li>
         <li>CSS</li>
         <li>Node.js</li>
