@@ -8,7 +8,7 @@ const SubmissionSuccess = () => {
   return (
     <Container className="submission-success mt-5">
       <h2>Thank you, {state.name}!</h2>
-      <p>Your message has been sent.</p>
+      <p>We've sent your message.</p>
       <ul>
         <li><strong>Email:</strong> {state.email}</li>
         <li><strong>Message:</strong> {state.message}</li>
